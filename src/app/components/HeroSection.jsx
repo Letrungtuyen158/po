@@ -22,11 +22,9 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Developer",
                 1000,
                 "Web Developer",
-                1000,
-                "Mobile Developer",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -36,10 +34,28 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
-          </p>
+          <div className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            <p>
+              Hello! My name is Tuyến, and I am a dedicated and experienced web
+              developer with 4 years of expertise in website development. I am
+              passionate about creating innovative and efficient web solutions
+              that meet the needs of my clients. Based in the beautiful city of
+              Da Nang, I specialize in designing and developing user-friendly
+              websites that not only look great but also perform exceptionally
+              well. My experience spans across various aspects of web
+              development, including front-end and back-end development,
+              ensuring a comprehensive approach to every project I undertake.
+            </p>
+            <br />
+            <p>
+              Whether you need a brand new website, a redesign, or ongoing
+              maintenance, I am here to help bring your vision to life. Let
+              &apos;s work together to create a web presence that truly stands
+              out!
+            </p>
+            <br />
+            Feel free to adjust any details to better suit your preferences.
+          </div>
           <div>
             <Link
               href="/#contact"
@@ -65,7 +81,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/banner.webp"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
@@ -79,3 +95,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
